@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "339730649651",
+    "firebase_url": "https://my-project-1528785635419.firebaseio.com",
+    "project_id": "my-project-1528785635419",
+    "storage_bucket": "my-project-1528785635419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339730649651:android:ef3069a932acedae",
+        "android_client_info": {
+          "package_name": "com.skyzone18.Raghukulvidyalay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339730649651-j7t5rbi1s9269863l9jpo3kaov07u7ke.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "339730649651-j7t5rbi1s9269863l9jpo3kaov07u7ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgRyk_G0XFtrTWKWvyDuVIhf2ggb-Z1Ok"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skyzone18.Raghukulvidyalay">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="com.google.android.maps.v2.API_KEY"
+        android:value="AIzaSyArx1MNgmVlmlajotC7ASk8SCNVPdbU0KQ" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.SlashActvity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Firebase Notifications -->
+        <service android:name="com.skyzone18.Raghukulvidyalay.Notification.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.skyzone18.Raghukulvidyalay.Notification.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.ContactActivity"
+            android:label="@string/contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.AboutActivity"
+            android:label="@string/app_about"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.AcademicActivity"
+            android:label="@string/app_academics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.ActvitiesActivity"
+            android:label="@string/app_actvitices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.FacilityActivity"
+            android:label="@string/app_faci"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.AdmissionActivity"
+            android:label="@string/app_admission"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.AimActivity"
+            android:label="@string/app_aim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.MangementActivity"
+            android:label="@string/app_man"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.Activity.StudentLoginActivity"
+            android:label="@string/app_student"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.NewsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.EventActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.ShowPhotodActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.VideoyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.ShowVideoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.NoticeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.TodayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.StaffActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.DownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.MediumstdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.HomeWorkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.HomeDetailActvity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.StudentResultActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.skyzone18.Raghukulvidyalay.JsonActivity.StanderActivity"
+            android:screenOrientation="portrait" ></activity>
+    </application>
+
+</manifest>
